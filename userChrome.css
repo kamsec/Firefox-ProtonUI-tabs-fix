@@ -1,0 +1,54 @@
+
+.tab-background{
+	border-radius: 0px 0px !important;
+	margin-bottom: 0px !important;
+	margin-top: 0px !important;
+}
+
+.tabbrowser-tab{
+	border-inline-end: 1px solid gray !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.tab-label{
+	color: white !important;
+}
+
+.tabbrowser-tab:not([selected=true]):not([multiselected=true]) .tab-background{
+	background-color: black;
+}
+
+.tabbrowser-tab:not([selected=true]):not([multiselected=true]):hover .tab-background{
+	background-color: #2b2a33 !important;
+}
+
+#tabs-newtab-button {
+	margin-bottom: 0px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+
+}
+
+.toolbarbutton-icon {
+	border-radius: 0px !important;
+}
+
+
+menupopup>menu, menupopup>menuitem {
+	padding-block: 2px !important;
+}
+
+:root {
+	--arrowpanel-menuitem-padding: 2px !important;
+	--tab-min-height: 30px !important;
+}
+
+.tabbrowser-tab:hover,
+.tabbrowser-tab[beforehovered],
+.tabbrowser-tab[selected],
+.tabbrowser-tab[last-visible-tab],
+.tabbrowser-tab[beforeselected-visible]{
+	border-image: none !important;
+}
+
