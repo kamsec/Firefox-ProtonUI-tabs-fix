@@ -24,3 +24,5 @@ The tabs after using `userChrome.css` from this repo:
 7. Search for `Profile Folder` and click `Open Folder`
 8. In that directory create `chrome` folder 
 9. Inside, paste the file `userChrome.css` from this repository and restart Firefox
+
+Tested on 91.0.2
