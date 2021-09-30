@@ -18,11 +18,16 @@ Tested on Firefox 91.0.2
     browser.proton.enabled
     browser.proton.places-tooltip.enabled
     ```
+4. Find and set the following settings to `true`:
+    ```
+    browser.compactmode.show
+    toolkit.legacyUserProfileCustomizations.stylesheets
+    ```
 ----
-4. Click on menu symbol `≡` -> `More tools` -> `Customise toolbar...`
-5. At the bottom, click on `Density` and choose `Compact`
+5. Click on menu symbol `≡` -> `More tools` -> `Customise toolbar...`
+6. At the bottom, click on `Density` and choose `Compact`
 ---
-6. Open new tab, enter `about:support` and hit enter
-7. Search for `Profile Folder` and click `Open Folder`
-8. In that directory create `chrome` folder 
-9. Inside, paste the file `userChrome.css` from this repository and restart Firefox
+7. Open new tab, enter `about:support` and hit enter
+8. Search for `Profile Folder` and click `Open Folder`
+9. In that directory create `chrome` folder 
+10. Inside, paste the file `userChrome.css` from this repository and restart Firefox
