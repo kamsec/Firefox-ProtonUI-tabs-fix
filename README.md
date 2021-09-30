@@ -4,7 +4,7 @@ Firefox 89+ tabs look (with default Dark Theme, ProtonUI disabled (steps 1-3) an
 ![old](https://user-images.githubusercontent.com/62106309/131740012-6e7a40a5-d755-4fed-b45b-15599a12d206.PNG)
 
 The tabs after using `userChrome.css` from this repo:
-![new](https://user-images.githubusercontent.com/62106309/131740024-6bc18533-5cda-4e51-a728-944b29613c23.PNG)
+![new](https://user-images.githubusercontent.com/62106309/135512812-919d0cb4-e585-4d72-926f-2d09a938ce99.PNG)
 
 Tested on Firefox 91.0.2
 
