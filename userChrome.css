@@ -27,13 +27,22 @@
 	margin-bottom: 0px !important;
 	padding-left: 0px !important;
 	padding-right: 0px !important;
-
 }
 
 .toolbarbutton-icon {
 	border-radius: 0px !important;
 }
 
+.tab-icon-stack{
+	color: white !important;
+}
+
+.tabbrowser-tab .close-icon {
+	fill: white !important;
+}
+.tabbrowser-tab .close-icon:hover {
+	background-color: gray !important;
+}
 
 menupopup>menu, menupopup>menuitem {
 	padding-block: 2px !important;
@@ -51,4 +60,3 @@ menupopup>menu, menupopup>menuitem {
 .tabbrowser-tab[beforeselected-visible]{
 	border-image: none !important;
 }
-
